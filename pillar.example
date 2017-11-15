@@ -1,5 +1,8 @@
 sentinel:
   mastername: redismaster
+# for each Sentinel cluster add it with redis_master_ip
   clusters:
     stable:
       - 10.64.24.132
+    sandbox:
+      - 192.168.33.12

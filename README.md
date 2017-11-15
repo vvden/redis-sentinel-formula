@@ -20,11 +20,6 @@ grains:
   sentinel:
     cluster_id:
       - stable
-mine_functions:
-  network.interfaces: []
-  network.ip_addrs:
-   - eth0
-  grains.items: []
 ```
 
 ### Sentinel redis slave minion config, with required role, sentinel:cluster_id and mine_functions:
@@ -35,9 +30,4 @@ grains:
   sentinel:
     cluster_id:
       - stable
-mine_functions:
-  network.interfaces: []
-  network.ip_addrs:
-   - eth0
-  grains.items: []
 ```

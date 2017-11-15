@@ -31,6 +31,7 @@ redis_conf:
       - redis_pkg
     - context:
       redis_master_ip: {{ sentinel.redis_master_ip }}
+
 sentinel_conf:
   file.managed:
     - template: jinja
