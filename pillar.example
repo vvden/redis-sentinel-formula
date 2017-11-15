@@ -1,0 +1,4 @@
+sentinel:
+  clusters:
+    stable:
+      - 10.64.24.132
