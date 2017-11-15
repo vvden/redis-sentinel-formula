@@ -38,3 +38,6 @@ sentinel_conf:
     - source: salt://sentinel/files/redis-sentinel.conf
     - require:
       - redis_pkg
+    - context:
+      redis_master_ip: {{ sentinel.redis_master_ip }}
+      mastername: {{ sentinel.mastername }}
